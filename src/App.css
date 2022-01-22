@@ -1,7 +1,31 @@
 .App {
   text-align: center;
+  
 }
 
+.logo,.logo:hover{
+    text-decoration: none !important;
+    color: red;
+    font-size: 2rem;
+    font-family: MONOSPACE;
+    font-weight: 700;
+    text-shadow: 2.5px 5px black;
+}
+
+
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.MuiButton-label:hover{
+  color: aquamarine;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -111,6 +135,14 @@ padding: 3rem;
 padding: 3rem;
 overflow: auto;
 }
+.css-1qbkelo-MuiCardHeader-content {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  flex: 1 1 auto;
+}
 
 @media screen and (max-width:400px){
 .banner-card{
@@ -135,6 +167,14 @@ overflow: auto;
   width: 80%;
 }
 .movies-img{
-  width: 40vw;
+  width: 80vw;
+}
+.css-1qbkelo-MuiCardHeader-content {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  flex: 1 1 auto;
 }
 }

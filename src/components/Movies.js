@@ -18,6 +18,7 @@ export default class Movies extends Component {
         const resp = await axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=a748adf1e91c666693b3a7ec038cce7d&language=en-US&page=%24%7B{this.state.currpage}`)
         console.log("dekho",resp.data);
         let data = resp.data;
+        console.log(data);
         console.log("Mounting DOne");
         this.setState({
             movies:[...data.results]
