@@ -11,6 +11,7 @@ export default class Movies extends Component {
             movies:[],
             favourites:[]
         }
+        // this.nxtPage = this.nxtPage.bind(this);
     }
     async componentDidMount()
     {
